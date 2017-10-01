@@ -89,7 +89,7 @@ foreach ($datearray as $value) {
 
 
 $leapyears = "";
-
+//test
 foreach ($year as $value) 
 {
     $x = 0;
@@ -148,7 +148,3 @@ echo $leapyears . "<br>";
 
 
 ?>
-
-
-
-10.Loop through the array $year and you need to identify whether each year is a leap year. If it is, print out “True”, otherwise, print out “False”. (36%) A. You need to use two methods to loop through the array, which means you need to use two different statement structures to ﬁnish this job. The ﬁrst one must be foreach and the second one could be for or while or do…while. B. You need to use switch statement to identify whether a year is a leap year. C. You need to delimit each result with space in one line. 
